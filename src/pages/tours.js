@@ -19,6 +19,7 @@ export const getTours = graphql`
 				node {
 					name
 					price
+					slug
 					country
 					id: contentful_id
 					days
